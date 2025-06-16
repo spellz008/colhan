@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.header-text {
+  height: 50vh;
+  background-image: url("../assets/images/dark-cloth-with-plate-waffles.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px; 
+}
+
+
+.header-nav ul{
+    background-color: gray;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+}
+.header-nav a{
+    list-style: none;
+    color:rgb(56, 55, 55);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-nav li{
+    list-style-type: none;
+}

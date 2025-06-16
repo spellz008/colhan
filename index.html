@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colhan oven</title>
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- header begins -->
+     <header>
+    <nav>
+         <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img class="x" src="./public/assets/images/x.png" alt="" srcset=""></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li onclick=hideSidebar()><a href="#"><img src="./public/assets/images/x.png" alt="" srcset=""></a></li>
+        </ul>
+        <ul class="mainbar">
+           <li><a href="#"><img class="colhan"src="./public/assets/images/logo.png" alt=""></a></li>
+            <li class="hideonmobile"><a href="#">Home</a></li>
+            <li class="hideonmobile"><a href="#">Services</a></li>
+            <li class="hideonmobile"><a href="menu.html">Menu</a></li>
+            <li class="hideonmobile"><a href="#">About</a></li>
+            <li class="hideonmobile"><a href="#">Contact us</a></li>
+             <li class="han" onclick=showSidebar()><a href="#"><img src="./public/assets/images/menu.png" alt="" srcset=""></a></li>
+            
+        </ul>
+    </nav>
+     </header>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    <!-- header ends -->
+
+
+    <!-- hero page -->
+        <section class="homepage" id="#home">
+            <div class="pages">
+                <div class="item1">
+                    <h2>welcome to colhan</h2>
+                    <p>Delicious homemade meals that taste just like home. From breakfast to late lunch cravings, we've got your plate covered! <strong>Taste that hugs you back</strong></p>
+                    <a href="./menu.html">Explore menu</a>
+                </div>
+                <div class="item2">
+                    <img src="./public/assets/images/jollof.png" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+        <!-- hero page ends -->
+
+            <!-- about section  -->
+        <section class="about-section">
+            <div class="about-container">
+                <h2>About us</h2>
+                <p>At COlHAN'S, our passion for fresh, home-cooked meals come straight from generations of love and tradition. whether you're here for a comforting bowl of soup or a sweet treat to lift your day, we pour our hearts into every dish. Because to us, food isn't about just food-its's family,it's comfort, it's <strong>Home.</strong></p>
+            </div>
+        </section>
+        <!-- about section ends -->
+         <!-- why section -->
+        <section class="why-us">
+            <div class="why-them">
+                <h2>WHY CHOOSE US?</h2>
+                <P>Fresh, locally sourced ingredient in every meal.</P>
+            </div>
+            <div class="reasons">
+                <div class="reason-one">
+                    <span class="icon"><img src="./public/assets/images/bowl-noodles-alt.png" alt=""></span>
+                    <h3>Serve Healthy Food</h3>
+                    <p>We serve healthy food here you can choose what you like</p>
+                </div>
+                <div class="reason-one">
+                    <span class="icon"><img src="./public/assets/images/bolt (2).png" alt=""></span>
+                    <h3>Best Quality</h3>
+                    <p>Our food quality is excellent You will get what you want here</p>
+                </div>
+                <div class="reason-one">
+                    <span class="icon"><img src="./public/assets/images/truck.png" alt=""></span>
+                    <h3>Fast Delivery</h3>
+                    <p>with easy-to-access spots and fast delivery, Colhan is always within reach whenever hunger strikes</p>
+                </div>
+            </div>
+        </section>
+        <!-- why section ends -->
+         <!-- testimonials -->
+                <div class="section-container">
+                    <div class="heading">
+                        <p>TESTIMONIALS</p>
+                        <h1>What our customers say about us.</h1>
+                    </div>
+                    <div class="testimonials-grid">
+                        <div class="card">
+                            <span name="i"><img src="./public/assets/images/x.png" alt=""></span>
+                            <p>
+                                "it's the taste for me Colhan gives the perfect homemade feel i've been missing"
+                            </p>
+                            <hr>
+                            <img  class="test" src="./public/assets/images/jollof.png" alt="user" srcset="">
+                            <p class="name">-Blessing N</p>
+                        </div>
+                        <!--  -->
+                         <div class="card">
+                            <span name="i"><img src="./public/assets/images/x.png" alt=""></span>
+                            <p>
+                                "I ordered once and now i'm hooked. The portions are generous and very satisfying"
+                            </p>
+                            <hr>
+                            <img class="test" src="./public/assets/images/jollof.png" alt="user" srcset="">
+                            <p class="name">-Chuka I</p>
+                        </div>
+                        <!--  -->
+                         <div class="card">
+                            <span name="i"><img src="./public/assets/images/x.png" alt=""></span>
+                            <p>
+                                "I honestly haven't tasted jollof this good in a long time . it reminded me of my mom's cooking!"
+                            </p>
+                            <hr>
+                            <img class="test"src="./public/assets/images/jollof.png" alt="user" srcset="">
+                            <p class="name">-Folasade M</p>
+                        </div>
+                        <!--  -->
+                         <div class="card">
+                            <span name="i"><img src="./public/assets/images/x.png" alt=""></span>
+                            <p>
+                                "Fast delivery, good food , no stress.Colhan is my go-to lunch plug now."
+                            </p>
+                            <hr>
+                            <img class="test" src="./public/assets/images/jollof.png" alt="user" srcset="">
+                            <p class="name">-Tunde E</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <h3>Here at Colhan.</h3>
+                    <p>Our meals are aligned with personal needs, <br>allows us to make dishes tailored to your needs.</p>
+                    <button>GRAB A MEAL <a href="./menu.html"></a></button>
+                </div>
+          <!-- testimonial ends -->
+
+          <!-- faq startz -->
+           <section>
+            <div class="wrapper">
+                <p>The beginning of a new phase.</p>
+                <h1>Frequently Asked Questions</h1>
+                <div class="faq">
+                    <button class="accordion">
+                        What kind of meals do you offer?
+                        <i><img src="./public/assets/images/chevron-down.png" alt=""></i>
+                    </button>
+                    <div class="pannel">
+                        <p>We offer a variety of home-cooked Nigerian meals with love- from breakfast to dinner, plus snacks and drinks</p>
+                    </div>
+                    
+                    <div class="faq">
+                    <button class="accordion">
+                        How do i place an order?
+                        <i><img src="./public/assets/images/chevron-down.png" alt=""></i>
+                    </button>
+                    <div class="pannel">
+                        <p>You can browse our menu and send us a message or call to place your order.</p>
+                    </div>
+
+                    <div class="faq">
+                    <button class="accordion">
+                        How much does delivery cost?
+                        <i><img src="./public/assets/images/chevron-down.png" alt=""></i>
+                    </button>
+                    <div class="pannel">
+                        <p>Delivery fees depends on your location, but we always keep it affordable.</p>
+                    </div>
+
+                     <div class="faq">
+                    <button class="accordion">
+                        Can i pre-order for another day?
+                        <i><img src="./public/assets/images/chevron-down.png" alt=""></i>
+                    </button>
+                    <div class="pannel">
+                        <p>yes! you can pre-order meals for tomorrow or even the whole week</p>
+                    </div>
+                    
+                    <div class="faq">
+                    <button class="accordion">
+                        Do you cater for events or large orders?
+                        <i><img src="./public/assets/images/chevron-down.png" alt=""></i>
+                    </button>
+                    <div class="pannel">
+                        <p>Yes, we do! Whether it's for a family gathering, office lunch,or special events , just reach out and we'll sort it out</p>
+                    </div>
+                    <!--  -->
+                     <div class="faq"> 
+                    <button class="accordion">
+                        Where are you located ?
+                        <i><img src="./public/assets/images/chevron-down.png" alt=""></i>
+                    </button>
+                    <div class="pannel">
+                        <p>We're based in Lagos State, and we deliver around town quickly and safe</p>
+                    </div>
+                    <!--  -->
+                    <div class="faq"> 
+                    <button class="accordion">
+                        What payment methods do you accept?
+                        <i><img src="./public/assets/images/chevron-down.png" alt=""></i>
+                    </button>
+                    <div class="pannel">
+                        <p>We accept bank transfers, cash on delievry and mobile money options? *Note* cash on delivery would be received before orders are collected</p>
+                    </div>
+                    <!--  -->
+                </div>
+                     </div>
+            </div>
+            </section>    
+            <!-- faq ends -->
+              <!-- contact page -->
+            <section class="contacts-section">
+                <div class="contact-heading">
+                    <h2>Let's Connect</h2>
+                    <p>Have a question or just want to say hi? Fill the form below</p>
+                </div>
+                <div class="contact-form-box">
+                    <div class="contact-form">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your email" required>
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                         <a href="https://wa.me/2348032414280?text=Hello%20Colhan! I%20have%20a%20question." target="_blank">
+                                <button class="send">Send us a message</button>
+                    </a>
+                    </div>
+                </div>    
+            </section>
+            <div>
+                 <footer class="foots">
+                    <p>&copy; 2025 Colhan Foods. All rights reserved</p>
+
+                </footer>
+            </div>
+             <!-- contact ends -->
+        
+</body>
+</html>
