@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/assets/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav>
+         <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img class="x" src="./public/assets/images/x.png" alt="" srcset=""></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li onclick=hideSidebar()><a href="#"><img src="./public/assets/images/x.png" alt="" srcset=""></a></li>
+        </ul>
+        <ul class="mainbar">
+           <li><a href="#"><img class="colhan"src="./public/assets/images/logo.png" alt=""></a></li>
+            <li class="hideonmobile"><a href="index.html">Home</a></li>
+            <li class="hideonmobile"><a href="#">Services</a></li>
+            <li class="hideonmobile"><a href="menu.html">Menu</a></li>
+            <li class="hideonmobile"><a href="#">About</a></li>
+            <li class="hideonmobile"><a href="contact.html">Contact us</a></li>
+             <li class="han" onclick=showSidebar()><a href="#"><img src="./public/assets/images/menu.png" alt="" srcset=""></a></li>
+            
+        </ul>
+    </nav>
+     </header>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    <!-- hero section -->
+        <!-- <section class="homepage" id="#home">
+            <div class="pages">
+                <div class="item1">
+                    <h2>welcome to colhan</h2>
+                    <p>Delicious homemade meals that taste just like home. From breakfast to late lunch cravings, we've got your plate covered! <strong>Taste that hugs you back</strong></p>
+                    <a href="./menu.html">Explore menu</a>
+                </div>
+                <div class="item2">
+                    <img src="./public/assets/images/jollof.png" alt="" srcset="">
+                </div>
+            </div>
+        </section> -->
+     <!-- hero ends -->
+      <!-- hero section -->
+            <section class="homepage">
+                <div class="pages">
+                    <div class="item1">
+                        <h1>Get in touch</h1>
+                        <p>We'd love to hear from you- Whether it's an order, a party request, or a quick question.</p>
+                    </div>
+                    <div class="item2">
+                        <img src="./public/assets/images/snacks.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+       <!-- hero ends -->
+    <!-- contact page -->
+        <section class="contact-page">
+           <div class="information">
+                <div class="info-one">
+                    <h1>Information</h1>
+                    <p>Contact us to gain more information about any of or services or packages your intrested in, Our operators would provide you with all the information</p>
+                    <div class="locate">
+                        <p><span><img src="./public/assets/images/phone-done.svg" alt="" srcset=""></span> call +2348032414280</p>
+                        <p><span><img src="./public/assets/images/clock-24.svg" alt=""> Mon-Sat 8:00-6:00</span></p>
+                        <p><span><img src="./public/assets/images/mail.svg" alt=""></span> chidinmaenwerei15@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-two">
+                    <h1>Contact Form</h1>
+                    <!-- <form class="contact-form">
+                        <input type="text" placeholder="Your name" required>
+                        <input type="email" placeholder="Enter E-mail" required>
+                        <input type="phone" placeholder="phone">
+                        <textarea name="message" placeholder="type your mesaage....."></textarea>
+                         <button class="colhan">
+                            send message
+                        </button> -->
+                    </form> 
+                    <!--  -->
+                    <div class="contact-form-box">
+                    <div class="contact-form">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your email" required>
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                         <a href="https://wa.me/2348032414280?text=Hello%20Colhan! I%20have%20a%20question." target="_blank">
+                                <button class="send">Send us a message</button>
+                    </a>
+                    </div>
+                </div>
+           </div>
+
+        </section>
+     <!-- contact ends -->
+      <section class="footer">
+        <p>&copy;2025 Colhan Foods. All rights reserved</p>
+
+      </section>
+</body>
+</html>

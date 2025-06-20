@@ -4,38 +4,172 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-img{
-    max-width: 100%;
-}
-.header-text {
-  height: 50vh;
-  background-image: url("../assets/images/dark-cloth-with-plate-waffles.jpg");
+
+header{
+  height: 70vh;
+  background-image: url("../assets/images/plate\ bg.jpg");
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  color: white;
-  padding: 0 20px; 
+  color: white; 
 }
-
-
-.header-nav ul{
-    background-color: gray;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: space-around;
-    padding:10px;
+body{
+    min-height: 100vh;
 }
-.header-nav a{
+img{
+    max-width:100%;
+}
+.colhan{
+    max-width:5rem;
+    position: relative;
+    top:0.1rem;
+}
+nav{
+
+}
+nav ul{
+    width:100%;
     list-style: none;
-    color:rgb(56, 55, 55);
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-.header-nav li{
-    list-style-type: none;
+nav li{
+    height:50px;
+
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100vh;
+    width:250px;
+    z-index: 999;
+    background-color:black;
+    display:none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.mainbar{
+    /* position: fixed; */
+    /* top:0;
+    left:0;
+    width:100%;
+    z-index: 1000;
+    background-color:white; */
+}
+.x{
+    filter: invert(1);
+}
+.sidebar li{
+    width:100%;
+}
+.sidebar a{
+    width:100%;
+    color:white;
+}
+/* img{
+    max-width: 100%;
+/* } */
+.menus{
+    padding:1rem;
+    overflow: hidden;
+}
+.categories{
+    display:flex;
+    justify-content: space-around; 
+    margin-top: 2rem;
+}
+.cate a{
+    text-decoration: none;
+    background-color:whitesmoke;
+    padding:0.5rem 1rem;
+    color:#504f4f;
+}
+.rice{
+}
+/* .breakfast-item{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+.break{
+    min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/beans.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.moi-moi{
+    min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/yam.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.yam{
+    min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/pap.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.egg{
+    min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/noodless.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.custard{
+     min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/custard.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.native{
+     min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/native.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.veg{
+     min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/veg.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.toast{
+     min-height:13rem;
+    max-width: 12rem;
+    background-image: url("../assets/images/toast.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.breakfast{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 40rem;
 }

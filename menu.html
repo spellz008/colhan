@@ -10,37 +10,105 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-        <header class="header-text">
-    <div class="text">
-      <h1>Our Menu</h1>
-      <p>Our meals are made with quality ingredients, traditional recipes, and timely delivery to keep you satisfied. Explore our menu and place your order today.</p>
-    </div>
-  </header>
-
-  <div class="header-nav">
-    <nav>
-      <ul>
-        <li><a href="#">🏠 Home Service</a></li>
-        <li><a href="#">🎉 Party Service</a></li>
-        <li><a href="#">🏢 Office Delivery</a></li>
-        <li><a href="#">🍛 Order a Plate</a></li>
-      </ul>
+    <header>
+       <nav>
+         <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img class="x" src="./public/assets/images/x.png" alt="" srcset=""></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li onclick=hideSidebar()><a href="#"><img src="./public/assets/images/x.png" alt="" srcset=""></a></li>
+        </ul>
+        <ul class="mainbar">
+           <li><a href="#"><img class="colhan"src="./public/assets/images/logo.png" alt=""></a></li>
+            <li class="hideonmobile"><a href="index.html">Home</a></li>
+            <li class="hideonmobile"><a href="#">Services</a></li>
+            <li class="hideonmobile"><a href="menu.html">Menu</a></li>
+            <li class="hideonmobile"><a href="#">About</a></li>
+            <li class="hideonmobile"><a href="contact.html">Contact us</a></li>
+             <li class="han" onclick=showSidebar()><a href="#"><img src="./public/assets/images/menu.png" alt="" srcset=""></a></li>
+            
+        </ul>
     </nav>
-  </div>
-  <section>
-        <div class="home-content">
-            <h2>Home Services</h2>
-        </div>
-        <div class="home-content">
-            <div class="home-item">
-                <img src="./public/assets/images/jollof.png" alt="">
-                <p>jollof rice+turkey</p>
-                <p><strong>Price:</strong> ₦2,500</p>
-                <p><strong>Prep Time:</strong> 30–45 mins</p>
-                <span>comes with a bottle water</span>
-                <button>Order Now</button>
+          <div class="header-content">
+                <div class="text">
+                  <h1>Naturallly Nourishing Taste</h1>
+                  <p>Our meals are made with quality ingredients, traditional recipes, and timely delivery to keep you satisfied. Explore our menu and place your order today.</p>
+                </div>
+          </div>
+     </header>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+   
+<div class="breakfast">
+      <div class="breakfast-item">
+            <div class="yam"></div>
+            <div class="item-text">
+                <h2>yam and egg</h2>
+                <p><strong>price:</strong> ---</p>
+                <a href="#">Order now</a>
             </div>
-        </div>
-  </section>   
+      </div>
+
+      <div class="breakfast-item">
+            <div class="yam"></div>
+            <div class="item-text">
+                <h2>yam and egg</h2>
+                <p><strong>price:</strong> ---</p>
+                <a href="#">Order now</a>
+            </div>
+      </div>
+
+
+      <div class="breakfast-item">
+            <div class="moi-moi"></div>
+            <div class="item-text">
+                <h2>yam and egg</h2>
+                <p><strong>price:</strong> ---</p>
+                <a href="#">Order now</a>
+            </div>
+      </div>
+
+
+      <div class="breakfast-item">
+            <div class="moi-moi"></div>
+            <div class="item-text">
+                <h2>yam and egg</h2>
+                <p><strong>price:</strong> ---</p>
+                <a href="#">Order now</a>
+            </div>
+      </div>
+
+      <div class="breakfast-item">
+            <div class="moi-moi"></div>
+            <div class="item-text">
+                <h2>yam and egg</h2>
+                <p><strong>price:</strong> ---</p>
+                <a href="#">Order now</a>
+            </div>
+      </div>
+
+      <div class="breakfast-item">
+            <div class="moi-moi"></div>
+            <div class="item-text">
+                <h2>yam and egg</h2>
+                <p><strong>price:</strong> ---</p>
+                <a href="#">Order now</a>
+            </div>
+      </div>
+
+
+</div>
+  
 </body>
 </html>
