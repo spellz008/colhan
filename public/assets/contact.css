@@ -130,7 +130,7 @@ nav li:first-child{
     margin-right: auto;
 }
 .contact-form input{
-    /* width:100%; */
+     width:100%; 
     margin-top: 5px;
     padding: 10px 40px;
     font-size: 16px;
@@ -172,5 +172,49 @@ nav li:first-child{
 /* .colhan{
     padding: 10px 20px;
 } */
+ 
 
+@media(max-width:742px){
+    .information{
+        display: block;
+    }
+    .contact-form{
+        max-width: 277px;
+        margin:auto;
+    }
+    .pages{
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .item2 img{
+        max-width:12rem;
+        margin-left: 5rem;
+    } 
+    .hideonmobile{
+        display:none;
+    }
+    .han{
+        display: flex;
+    }
+    .info-one h1{
+    font-size:2rem;
+    text-align: center;
+ }
+ .info-two h1{
+    font-size:2rem;
+    text-align: center;
+    margin-top: 2rem;
+ }
+ .info-one p{
+    max-width: 450px;
+    margin: auto;
+    padding: 1rem;
+ }
+ .item1 h1{
+    font-size: 2rem;
+ }
+ .item1 p{
+    font-size: 19px;
+ }
 
+}

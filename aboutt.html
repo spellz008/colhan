@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/assets/abouttt.css">
+</head>
+<body>
+    <header>
+       <nav>
+         <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img class="x" src="./assets/images/x.png" alt="" srcset=""></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="./aboutt.html">About</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li onclick=hideSidebar()><a href="#"><img src="./public/assets/images/x.png" alt="" srcset=""></a></li>
+        </ul>
+        <ul class="mainbar">
+           <li><a href="#"><img class="colhan"src="./assets/images/logo.png" alt=""></a></li>
+            <li class="hideonmobile"><a href="index.html">Home</a></li>
+            <li class="hideonmobile"><a href="#">Services</a></li>
+            <li class="hideonmobile"><a href="menu.html">Menu</a></li>
+            <li class="hideonmobile"><a href="./aboutt.html">About</a></li>
+            <li class="hideonmobile"><a href="contact.html">Contact us</a></li>
+             <li class="han" onclick=showSidebar()><a href="#"><img src="./assets/images/menu.png" alt="" srcset=""></a></li>
+            
+        </ul>
+    </nav>
+     <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    <div class="heroo">
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Taste the Colhan Experience</h1>
+                <p>From the first spoon of smoky jollof to the last bite of spicy suya, Colhan brings Naija’s finest flavors to your table. It’s the taste of home, the warmth of tradition, and the joy of good food — all served with love, just like Mama would.</p> 
+                <a class="btn" href="./menu.html">View Menu</a>
+        </div>
+    </section>
+    <!-- <section class="hhh">
+     <section class="two">
+       <div class="flex-box">
+             <div class="items">
+                    <p class="par">Our Story</p>
+                    <h2>Welcome To Colhan</h2>
+                    <p class="para">colhan was born from a deep love for a rich, homegreen flavours- the kind that brings people together, spark memories, and make you close your eyes with the first bite.inspired by Nigerian roots and everyday cravings, We built a food culture where taste comes first and every dish is made with heart</p>
+                    <p class="para">what started with simple meals has grown into a trusted name for comfort, spice, and satisfaction. At Colhan, we don't just serve food- we serve joy, tradition, and that unforgettable Naija essence that lingers long after the plate is empty.</p>
+                </div>
+            <div class="flex-one"></div>
+            <div class="flex-two"></div>
+            </div>
+        </div>
+       </div>
+       <div class="flex-box2">
+       </div>
+     </section>
+    </div> -->
+   
+
+
+  <!-- <section class="bento">
+        <h2><span class="gradient-txt">BLOG</span></h2>
+        <div class="info-box">
+            <div class="info-one">
+                <video src="./assets/images/winetwo.mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="info-two">
+                <h1><span class="gradient-txt">Colhan Oven</span></h1>
+            <h3><span class="gradient-txt">Gallery Feed</span></h3>
+             <p>Where every bite hits home, and flavor is the love language.
+                stick around- Your cravings just found their new best friend.</p>
+                <p>Colhan isn't just food -It's a whole feeling.
+                Naija roots.kitchen dreams.flavors that speaks your language.</p>
+                <strong>Join the family- we're just getting started</strong>
+                <div class="btn-box">
+                    <button class="tn">Home</button>
+                    <button class="tn">Menu</button>
+            </div>
+        </div>
+  </section>  -->
+            <!-- <footer class="foots">
+                    <p>&copy; 2025 Colhan Foods. All rights reserved</p>
+
+                </footer> -->
+
+        <section class="grid">
+            <div class="grid-box">
+                <div class="grid-item">
+                <h4>Our Story</h4>
+                <h2>Welcome to Colhan</h2>
+                <p>Where every bite hits home, and flavor is the love language.
+                stick around- Your cravings just found their new best friend.</p>
+                <p>Colhan isn't just food -It's a whole feeling.
+                Naija roots.kitchen dreams.flavors that speaks your language.</p>
+                <strong>Join the family- we're just getting started</strong>
+                </div>
+                <div class="grid-item-one">
+                </div>
+                <div class="grid-item-two">
+
+                </div>
+            </div>
+        </section>  
+    <section class="blog">
+        <h2 class="b">BLOG</h2>
+        <div class="blogs-grid">
+            <div class="blog-item">
+                <h3>Bold Flavours</h3>
+                <p>colhan was born from a deep love for a rich, homegreen flavours- the kind that brings people together, spark memories, and make you close your eyes with the first bite.</p>
+                <button class="btn">View menu</button>
+            </div>
+            <div class="blog-item-two"></div>
+            <div class="blog-item">
+                <h3>Strong Flavor</h3>
+                <p>inspired by Nigerian roots and everyday cravings, We built a food culture where taste comes first and every dish is made with heart</p>
+                <button class="btn">View menu</button>
+            </div>
+            <div class="blog-item-four"></div>
+        </div>
+    </section>   
+    <section class="last">
+        <div class="last-item">
+            <h2>YOUR FAVOURITE NIGERIAN FOOD SPOT IN TOWN</h2>
+            <button class="tn">View menu</button>
+        </div>
+    </section>  
+    <footer class="foots">
+                    <p>&copy; 2025 Colhan Foods. All rights reserved</p>
+
+                </footer>
+</body>
+</html>

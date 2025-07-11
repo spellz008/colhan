@@ -53,6 +53,8 @@ nav li:first-child{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-top: 3.3rem;
+
 }
 .mainbar{
     /* position: fixed; */
@@ -117,6 +119,7 @@ nav li:first-child{
     display:flex;
     align-items: center;
     justify-content:center;
+    padding-top: 1rem;
 }
 .han{
     display:none;
@@ -131,7 +134,7 @@ nav li:first-child{
 }
 .slide{
     width:100%;
-    display:none;
+    display:flex;
 }
 .about-section{
     background-color:#f2f2f2;
@@ -154,7 +157,7 @@ nav li:first-child{
 }
 .why-us{
     background-image: url(../assets/images/back2.jpg);
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -169,7 +172,8 @@ nav li:first-child{
     margin-top: 3rem;
     margin-bottom: 1rem;
     padding: 1rem;
-    overflow:hidden;
+    overflow:scroll;
+    scrollbar-width: none;
 }
 .why-them{
     text-align: center;
@@ -183,6 +187,11 @@ nav li:first-child{
 .icon{
     border-radius:50%;
     filter: invert(1);
+}
+.reason-one{
+    flex-shrink: 0;
+    max-width: 400px;
+    background-color:#190B02;
 }
 .reason-one h3{
     margin-top: 1rem;
@@ -221,6 +230,8 @@ nav li:first-child{
     grid-template-columns: repeat(4, 1fr);
     gap:2rem;
     margin-bottom: 2rem;
+    
+
 
 }
 .card{
@@ -230,7 +241,7 @@ nav li:first-child{
     border-radius: 5px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: 0.3s
+    transition: 0.3s;
 }
 .card:hover{
     background-color: gainsboro;
@@ -392,6 +403,15 @@ nav li:first-child{
     padding:15px 10px;
     color:#ccc;
 }
+.mainbar{
+     position: fixed; 
+     top:0;
+    left:0;
+    width:100%;
+    z-index: 1000;
+    background-color:white;
+}
+
 @media(max-width:742px){
     .hideonmobile{
         display:none;
@@ -409,8 +429,11 @@ nav li:first-child{
         grid-template-columns: 1fr;
     }
     .reasons{
-        flex-direction: column;
+        /* flex-direction: column; */
+        height: 50vh;
+
     }
+
      .pannel{
         padding: 1rem 1rem;
      } 

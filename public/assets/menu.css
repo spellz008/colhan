@@ -44,7 +44,7 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color:white;
+    color:black;
 }
 nav li:first-child{
     margin-right: auto;
@@ -63,12 +63,13 @@ nav li:first-child{
     justify-content: flex-start;
 }
 .mainbar{
-    /* position: fixed; */
-    /* top:0;
+     position: fixed; 
+     top:0;
     left:0;
     width:100%;
     z-index: 1000;
-    background-color:white; */
+    color: red;
+    background-color:white;
 }
 .x{
     filter: invert(1);
@@ -80,96 +81,435 @@ nav li:first-child{
     width:100%;
     color:white;
 }
-/* img{
+img{
     max-width: 100%;
-/* } */
-.menus{
+} 
+/* .menus{
     padding:1rem;
     overflow: hidden;
-}
-.categories{
+} */
+/* .categories{
     display:flex;
     justify-content: space-around; 
     margin-top: 2rem;
-}
-.cate a{
+} */
+ /* .categories h1{
+    color:red;
+    padding-left:15rem;
+    margin-top: 2rem;
+    font-size: 2.3rem;
+ } */
+ .header-content{
+    padding-top:5rem;
+ }
+ .text{
+    padding: 1rem;
+    margin-top: 3rem;
+    max-width: 800px;
+    margin: auto 5%;
+    position: relative;
+    top: 3rem;
+ }
+ .text h1{
+    font-size: 2.4em;
+ }
+ .text p{
+    max-width: 29rem;
+    line-height: 1.2rem;
+ }
+ .cate-nav{
+    color:black;
+ }
+/* .cate a{
     text-decoration: none;
     background-color:whitesmoke;
     padding:0.5rem 1rem;
     color:#504f4f;
-}
-.rice{
-}
-/* .breakfast-item{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
 } */
+
+.cate-nav{
+    display:flex;
+    gap:1rem;
+    padding-top:4rem;
+    max-width: 800px;
+    margin: auto;
+    
+}
+ .cate-nav a{
+    text-decoration: none;
+    background-color:whitesmoke;
+    padding:0.5rem 1rem;
+    color:#504f4f;
+} 
+.breakfast-em{
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.breakfast-one{
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.breakfast-two{
+    /* background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px; */
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.breakfast-three{
+    /* background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px; */
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.breakfast-four{
+    /* background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px; */
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.breakfast-five{
+    /* background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px; */
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.breakfast-six{
+    /* background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px; */
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.breakfast-seven{
+    /* background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px; */
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+/* .breakfast-eight{
+    background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px;
+}
+.breakfast-nine{
+    background:grey;
+   max-width: 9rem;
+   padding:1px;
+   margin-bottom: 1rem;
+   border-radius:2px;
+} */
+.item-text{
+    padding:8px;
+    line-height: 1.6rem;
+}
+.item-text a{
+    text-decoration: none;
+    background-color: #333;
+    display: inline-block;
+    padding:5px 5px;
+    margin-top: 0.7rem;
+    color:white;
+    border-radius: 4px;
+}
 .break{
-    min-height:13rem;
-    max-width: 12rem;
+     min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/beans.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+    /* border-radius: 0.5rem; */
 }
 .moi-moi{
-    min-height:13rem;
-    max-width: 12rem;
+     min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/yam.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+    
 }
 .yam{
-    min-height:13rem;
-    max-width: 12rem;
+     min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/pap.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+   
 }
 .egg{
-    min-height:13rem;
-    max-width: 12rem;
+    min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/noodless.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+   
 }
 .custard{
-     min-height:13rem;
-    max-width: 12rem;
+     min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/custard.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+    
 }
 .native{
-     min-height:13rem;
-    max-width: 12rem;
+      min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/native.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+    
 }
 .veg{
-     min-height:13rem;
-    max-width: 12rem;
+    min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/veg.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+    
 }
 .toast{
-     min-height:13rem;
-    max-width: 12rem;
+     min-height:10rem;
+    max-width: 10rem;
     background-image: url("../assets/images/toast.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
+   
+}
+.noodles{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/noodless.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+  
 }
 .breakfast{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 40rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width:48rem; 
+    margin: auto;
+    gap:1rem;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 2rem;
+    
+    
 }
+.lunch-items{
+   border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.han{
+    display:none;
+}
+.lunch-food{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 48rem; 
+    margin: auto;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 2rem;
+    gap:1rem;
+}
+.lunch-header h2{
+
+}
+/* stew and soups */
+.soup-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    max-width:48rem; 
+    margin: auto;
+    gap:1rem;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 2rem;
+}
+.soup-item{
+    border:1px solid black;
+   max-width: 10rem;
+   padding:3px;
+   margin-bottom: 1rem;
+}
+.egusi{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/egusiii.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.okra{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/okraa.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.red{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/red\ oil.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.afang{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/afangg.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.nsala{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/nsalla.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.bangs{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/bangs.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.vegs{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/vegs.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.amala{
+     min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/amals.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+/* ends of soups and */
+  .lunch-header h2{
+            font-size:2rem;
+            letter-spacing:5px;
+            padding-left: 11rem;
+            margin-top: 1rem;
+        }
+        .soup-header h2{
+            font-size:2rem;
+            letter-spacing:5px;
+            padding-left:11rem;
+            margin-top: 1rem;
+        }
+        .categories h1{
+            font-size:2rem;
+            letter-spacing:5px;
+            padding-left: 12rem;
+            margin-top: 1rem;
+        }
+@media(max-width:742px){
+    .hideonmobile{
+        display:none;
+    }
+    .han{
+        display: flex;
+    }
+    .breakfast{
+        grid-template-columns: 1fr 1fr;
+        padding-left:1rem;
+        max-width: 23rem;
+    }
+    .lunch-food{
+        grid-template-columns: 1fr 1fr;
+        padding-left:1rem;
+        max-width: 23rem;
+    }
+    .soup-grid{
+        grid-template-columns: 1fr 1fr;
+        padding-left:1rem;
+        max-width: 23rem;
+    }
+    .cate-nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1rem;
+        max-width: 330px;
+    }
+    .cate-nav a{
+       
+    }
+    }
+    @media(min-width:1080px){
+        .lunch-header h2{
+            font-size:2.4rem;
+            letter-spacing:5px;
+            padding-left: 15.5rem;
+            margin-top: 1rem;
+        }
+        .soup-header h2{
+            font-size:2.4rem;
+            letter-spacing:5px;
+            padding-left: 15.5rem;
+            margin-top: 1rem;
+        }
+        .categories h1{
+            font-size:2.4rem;
+            letter-spacing:5px;
+            padding-left: 15.5rem;
+            margin-top: 1rem;
+        }
+        }
