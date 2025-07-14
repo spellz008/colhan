@@ -513,3 +513,6 @@ img{
             margin-top: 1rem;
         }
         }
+.x{
+    filter: invert(1);
+}

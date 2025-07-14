@@ -231,6 +231,7 @@ img{
     }
     .han{
         display: flex;
+        filter: invert(1);
     }
 }
 @media(min-width:600px){
@@ -316,4 +317,7 @@ img{
   font-weight: 700;
   font-size: 1.5rem;
 }
+}
+.x{
+  filter: invert(1);
 }
