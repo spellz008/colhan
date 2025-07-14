@@ -442,6 +442,78 @@ img{
     background-position: center;
     align-items: center;
 }
+.food-one{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/white\ rice.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-two{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/fried.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-one{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/jollofff.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-three{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/por.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-four{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/potatoe.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-five{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/white\ rice.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-six{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/chops.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-seven{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/turkey.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.food-eight{
+    min-height:10rem;
+    max-width: 10rem;
+    background-image: url("../assets/images/puff.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
 /* ends of soups and */
   .lunch-header h2{
             font-size:2rem;
