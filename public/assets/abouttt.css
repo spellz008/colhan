@@ -72,11 +72,14 @@ nav li:first-child{
     width:100%;
     z-index: 1000;
     backdrop-filter: blur(12px);
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(107, 106, 106, 0.2);
     border-bottom: 1px solid rgba(26, 26, 26, 0.4);
 }
-.x{
-    filter: invert(1);
+.pan{
+    filter: invert(0);
+}
+.colhan{
+  filter: invert(1);
 }
 .sidebar li{
     width:100%;
@@ -131,7 +134,7 @@ img{
 .grid-item-two{
    height:50vh;
     width: 100%;
-    background-image: url("../assets/images/restaurant-interior.jpg");
+    background-image: url("../assets/images/rest2.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -320,4 +323,9 @@ img{
 }
 .x{
   filter: invert(1);
+}
+@media(max-width:488px){
+    .blogs-grid{
+      grid-template-columns: 1fr;
+    }
 }

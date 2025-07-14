@@ -156,25 +156,9 @@ nav li:first-child{
     font-size: 17px;
 }
 .why-us{
-    background-image: url(../assets/images/back2.jpg);
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    color:white;
-    /* padding: 1rem; */
+   background-color: red;
 }
-.reasons{
-    display:flex;
-    max-width:1000px;
-    margin:auto ;
-    gap:1rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    overflow:scroll;
-    scrollbar-width: none;
-}
+
 .why-them{
     text-align: center;
     padding-top: 3rem
@@ -212,18 +196,7 @@ nav li:first-child{
     padding:1rem;
     text-align: center;
 }
-.heading{
-    margin-bottom: 2rem;
-}
-.heading p{
-    letter-spacing: 2px;
-    font-size: 1rem;
-    font-weight: 500;
-}
-.heading h1{
-    font-size: 2rem;
-    font-weight: 900;
-}
+
 .testimonials-grid{
     width:100%;
     display:grid;
@@ -428,11 +401,7 @@ nav li:first-child{
     .why-content{
         grid-template-columns: 1fr;
     }
-    .reasons{
-        /* flex-direction: column; */
-        height: 50vh;
-
-    }
+    
 
      .pannel{
         padding: 1rem 1rem;
@@ -441,6 +410,7 @@ nav li:first-child{
         max-width: 100%;
         margin:auto;
 }
+
 /* @media(min-width:984px){
     .mainbar{
      position: fixed;
