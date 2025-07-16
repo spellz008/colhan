@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/assets/form.css">
+</head>
+<body>
+</body>
+</html>
+
+<form action="https://formspree.io/f/mjkovpgo" method="post" class="form-box">
+        <label for="food-item">Choose your breakfast item:</label>
+        <select id="food-item" name="food-item" required>
+             <option value="" disabled selected>Select an item</option>
+      <option value="Beans with yam">Beans with yam</option>
+      <option value="yam with eggs">yam with eggs</option>
+      <option value="pap with moi-moi">pap with moi-moi</option>
+      <option value="akara with custard">akara with custard</option>
+      <option value="native-rice & meat">native-rice & meat</option>
+      <option value="sauce plantain">sauce plantain</option>
+      <option value="Toast with eggs">Toast with eggs</option>
+      <option value="noodles with eggs">noodles with eggs</option>
+        </select><br>
+
+         <label for="quantity">Number of plates:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="20" value="1" required /><br>
+
+        <label for="address">Delivery Address:</label><br>
+        <textarea id="address" name="address" rows="3" required placeholder="Enter your address"></textarea><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required placeholder="you@example.com"/><br>
+        
+       <label for="text">Delivery method</label><br>
+            <select id="food-item" name="food-item" required>
+            <option value="" disabled selected>Select a means</option>
+            <option value="Beans with yam">home delivery</option>
+            <option value="yam with eggs">pickup</option>
+            <br>
+            </select>
+
+        
+
+         <label for="text">Payment method</label><br>
+            <select id="food-item" name="food-item" required>
+            <option value="" disabled selected>select an option</option>
+            <option value="Beans with yam">Transfer</option>
+            <option value="yam with eggs">cash on delivery</option>
+            <br>
+            </select><br>
+    <button type="submit">submit</button>
+
+</form>
+
+<!-- <script>
+  function toggleAcct(select) {
+    const acct = document.getElementById('account-info');
+    acct.style.display = select.value === 'Transfer' ? 'block' : 'none';
+  }
+</script> --> 
+
+</body>
+</html> 

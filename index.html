@@ -236,12 +236,14 @@
                 </div>
                 <div class="contact-form-box">
                     <div class="contact-form">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                        <input type="email" id="email" placeholder="Your email" required>
-                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        <form action="https://formspree.io/f/mjkovpgo" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                          <a href="https://wa.me/2348032414280?text=Hello%20Colhan! I%20have%20a%20question." target="_blank">
-                                <button class="send">Send us a message</button>
+                        <button type="submit">Send</button>
                     </a>
+                    </form>
                     </div>
                 </div>    
             </section>
